@@ -1,3 +1,4 @@
+#![feature(build_hasher_simple_hash_one)]
 use core::hash::Hash;
 cfg_if::cfg_if! {
     if #[cfg(any(
